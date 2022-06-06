@@ -1,7 +1,7 @@
 {
 	"info": {
 		"_postman_id": "e19eaa64-3397-496f-99b6-c4568e834630",
-		"name": "transaction-management/config-server",
+		"name": "transaction-management",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "20912744"
 	},
@@ -222,9 +222,9 @@
 						"method": "POST",
 						"header": [],
 						"url": {
-							"raw": "{{transaction-api}}/transaction/createEWalletTransaction?phoneOrigin=938748928&phoneDestination=931433035&amount=200.0",
+							"raw": "{{default}}/transaction/createEWalletTransaction?phoneOrigin=932119799&phoneDestination=932119666&amount=20.00",
 							"host": [
-								"{{transaction-api}}"
+								"{{default}}"
 							],
 							"path": [
 								"transaction",
@@ -233,15 +233,15 @@
 							"query": [
 								{
 									"key": "phoneOrigin",
-									"value": "938748928"
+									"value": "932119799"
 								},
 								{
 									"key": "phoneDestination",
-									"value": "931433035"
+									"value": "932119666"
 								},
 								{
 									"key": "amount",
-									"value": "200.0"
+									"value": "20.00"
 								}
 							]
 						}
@@ -263,7 +263,7 @@
 							}
 						},
 						"url": {
-							"raw": "{{transaction-api}}/transaction/createBootCoinTransaction?phoneOrigin=938748928&phoneDestination=931433035&amount=200.0&paymentMethod=TRANSFER_BY_YANKI",
+							"raw": "{{transaction-api}}/transaction/createBootCoinTransaction?origin=932119666&destination=932119799&amount=2&paymentMethod=TRANSFER_BY_YANKI",
 							"host": [
 								"{{transaction-api}}"
 							],
@@ -273,16 +273,16 @@
 							],
 							"query": [
 								{
-									"key": "phoneOrigin",
-									"value": "938748928"
+									"key": "origin",
+									"value": "932119666"
 								},
 								{
-									"key": "phoneDestination",
-									"value": "931433035"
+									"key": "destination",
+									"value": "932119799"
 								},
 								{
 									"key": "amount",
-									"value": "200.0"
+									"value": "2"
 								},
 								{
 									"key": "paymentMethod",

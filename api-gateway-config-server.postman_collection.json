@@ -50,20 +50,15 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{gateway-api}}/consults/consults/reportProductsByCustomer?id=628fcd90674477ba7343f335",
+					"raw": "{{gateway-api}}/consults/consults/reportProductsByCustomer/628fcd90674477ba7343f335",
 					"host": [
 						"{{gateway-api}}"
 					],
 					"path": [
 						"consults",
 						"consults",
-						"reportProductsByCustomer"
-					],
-					"query": [
-						{
-							"key": "id",
-							"value": "628fcd90674477ba7343f335"
-						}
+						"reportProductsByCustomer",
+						"628fcd90674477ba7343f335"
 					]
 				}
 			},

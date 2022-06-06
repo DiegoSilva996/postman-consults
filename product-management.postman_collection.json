@@ -53,7 +53,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "\r\n    {\r\n        \"id\": \"627f072133c27e55410ef108\",\r\n        \"customerId\": \"627eee309f54ec3e6a16a9f2\",\r\n        \"creationDate\": null,\r\n        \"transactionDate\": null,\r\n        \"maximumTransactionLimit\": 1,\r\n        \"numberOfFreeTransactions\": 0,\r\n        \"maintenanceCommission\": 0.0,\r\n        \"amount\": 1700.0,\r\n        \"productType\": \"CURRENT_ACCOUNT\",\r\n        \"status\": \"ACTIVE\",\r\n        \"owners\": null,\r\n        \"authorizedSigner\": null,\r\n        \"hasDebt\": null,\r\n        \"associatedAccounts\": null\r\n    }",
+							"raw": "\r\n    {\r\n        \"id\": \"627f072133c27e55410ef108\",\r\n        \"customerId\": \"627eee309f54ec3e6a16a9f2\",\r\n        \"creationDate\": null,\r\n        \"transactionDate\": null,\r\n        \"maximumTransactionLimit\": 1,\r\n        \"numberOfFreeTransactions\": 0,\r\n        \"maintenanceCommission\": 0.0,\r\n        \"amount\": 1800.0,\r\n        \"productType\": \"CURRENT_ACCOUNT\",\r\n        \"status\": \"ACTIVE\",\r\n        \"owners\": null,\r\n        \"authorizedSigner\": null,\r\n        \"hasDebt\": null,\r\n        \"associatedAccounts\": null\r\n    }",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -61,9 +61,9 @@
 							}
 						},
 						"url": {
-							"raw": "{{product-api}}/product/update/627f072133c27e55410ef108",
+							"raw": "{{default}}/product/update/627f072133c27e55410ef108",
 							"host": [
-								"{{product-api}}"
+								"{{default}}"
 							],
 							"path": [
 								"product",
@@ -81,7 +81,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "    {\r\n        \"customerId\": \"627eee309f54ec3e6a16a9f2\",\r\n        \"creationDate\": null,\r\n        \"transactionDate\": null,\r\n        \"maximumTransactionLimit\": 5,\r\n        \"numberOfFreeTransactions\": 6,\r\n        \"maintenanceCommission\": 3.0,\r\n        \"amount\": 2000.0,\r\n        \"productType\": \"CURRENT_ACCOUNT\",\r\n        \"status\": \"ACTIVE\",\r\n        \"owners\": null,\r\n        \"authorizedSigner\": null,\r\n        \"hasDebt\": null,\r\n        \"associatedAccounts\": null\r\n    }",
+							"raw": "    {\r\n        \"customerId\": \"2314\",\r\n        \"creationDate\": null,\r\n        \"transactionDate\": null,\r\n        \"maximumTransactionLimit\": 5,\r\n        \"numberOfFreeTransactions\": 6,\r\n        \"maintenanceCommission\": 3.0,\r\n        \"amount\": 2000.0,\r\n        \"productType\": \"CURRENT_ACCOUNT\",\r\n        \"status\": \"ACTIVE\",\r\n        \"owners\": null,\r\n        \"authorizedSigner\": null,\r\n        \"hasDebt\": null,\r\n        \"associatedAccounts\": null\r\n    }",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -89,9 +89,9 @@
 							}
 						},
 						"url": {
-							"raw": "{{product-api}}/product/createProduct",
+							"raw": "{{default}}/product/createProduct",
 							"host": [
-								"{{product-api}}"
+								"{{default}}"
 							],
 							"path": [
 								"product",

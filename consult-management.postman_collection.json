@@ -1,7 +1,7 @@
 {
 	"info": {
 		"_postman_id": "d8ed3564-5840-4620-ae4c-2f46edcc3e40",
-		"name": "consult-management/config-server",
+		"name": "consult-management",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "20912744"
 	},
